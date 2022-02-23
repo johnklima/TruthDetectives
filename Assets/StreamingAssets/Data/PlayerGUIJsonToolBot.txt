@@ -1,0 +1,1 @@
+{"firstRun":false,"text":"ToolBot: Use the mouse scroll wheel to fade in/out the image. Match the location of the image to the 3d scene.","pos":0.0}

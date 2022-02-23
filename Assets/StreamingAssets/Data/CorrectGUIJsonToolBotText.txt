@@ -1,0 +1,1 @@
+{"firstRun":false,"text":"ToolBot: Click the thumbnail in the search results to load the video. Press the scpace bar to play.","pos":0.0}

@@ -1,0 +1,1 @@
+{"firstRun":false,"slideValue":26.315784454345704}
