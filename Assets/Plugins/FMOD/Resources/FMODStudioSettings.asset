@@ -476,8 +476,20 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - Atmosphere
+  - Atmosphere.assets
+  - Files
+  - Files.assets
+  - Master.assets
+  - Music
+  - Music.assets
+  - Scene
+  - Scene.assets
+  - UI
+  - UI.assets
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
