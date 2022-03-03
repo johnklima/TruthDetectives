@@ -60,13 +60,18 @@ public class DialogTreeController : MonoBehaviour
             if (currentVideo)
                 currentVideo.SetActive(false);
 
-            //start transition to AOI
-            glo.transitionCamera(0);
+
         }
         else if (glo.state == GlobalData.STATES.CHAP1)
         {
-            glo.nextState();
+            
+            //start transition to AOI
+            glo.transitionCamera(0);
 
+        }
+        else if (glo.state == GlobalData.STATES.CHAP2)
+        {
+            glo.nextState();
         }
     }
 

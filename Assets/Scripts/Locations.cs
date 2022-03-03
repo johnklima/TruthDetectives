@@ -25,10 +25,16 @@ public class Locations : MonoBehaviour
     }
     public void onGo()
     {
+
+        //TODO: too much spagetti to get hear, rethink...
         Debug.Log("On Go " + state);
         if (state < 0)
         {
-
+            cam.transitionCamera(camTwist.targetRotations[0], 680);
+            state = 1;
+        }
+        else if (state == 1)
+        { 
             //MAIN SCENE MOVE TO NEXT MAP
 
             int index = 0;
@@ -48,11 +54,11 @@ public class Locations : MonoBehaviour
 
             }
 
-            //cam.transitionCamera(camTwist.targetRotations[index], camTwist.targetZs[index]);
-            cam.transitionCamera(camTwist.targetRotations[index], 680);
+            cam.transitionCamera(camTwist.targetRotations[index], camTwist.targetZs[index]);
+            //cam.transitionCamera(camTwist.targetRotations[0], 680);
 
 
-            state = 0;
+            state = 1;
         }
         else 
         {

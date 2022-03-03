@@ -12,7 +12,7 @@ public class ImageItem : MonoBehaviour
     public Texture EnhancedImage;
     public Texture NormalImage;    
     public GameObject evidenceRotator;
-   
+    public RectTransform highlighter;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +29,13 @@ public class ImageItem : MonoBehaviour
     public void OnClick(bool on = true)
     {
 
+        RectTransform rect = GetComponent<RectTransform>();
         GlobalData glo = Camera.main.GetComponent<GlobalData>();
         Debug.Log("IMAGE CLICK " + glo.state.ToString() + " on=" +on);
 
+        //move the highlighter and be sure it is visible
+        highlighter.gameObject.SetActive(true);
+        highlighter.SetPositionAndRotation(rect.position, rect.rotation);
 
         //special case hide video in chap 5
         if (glo.state == GlobalData.STATES.CHAP5)
