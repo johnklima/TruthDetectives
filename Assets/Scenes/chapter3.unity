@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.0040668948, g: 0.00022235546, b: 0.00000005609018, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -414,9 +414,8 @@ MonoBehaviour:
   clip: {fileID: 0}
   EnhancedImage: {fileID: 2800000, guid: a319ae1a29b8afb45a5cbd70b2693839, type: 3}
   NormalImage: {fileID: 2800000, guid: a319ae1a29b8afb45a5cbd70b2693839, type: 3}
-  skipper: {fileID: 0}
-  nextSceneClip: {fileID: 0}
   evidenceRotator: {fileID: 1658254681}
+  highlighter: {fileID: 0}
 --- !u!222 &122220021
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1067,11 +1066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1daf89825a88ef3478cdef027023bcbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolBot: {fileID: 1498704212}
-  inBox: {fileID: 656106338}
-  outBox: {fileID: 819672259}
-  thirdBox: {fileID: 1386642124}
-  tree: {fileID: 858004105}
+  chatscroll: {fileID: 0}
 --- !u!114 &190108635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1440,9 +1435,8 @@ MonoBehaviour:
   clip: {fileID: 0}
   EnhancedImage: {fileID: 2800000, guid: a5f4faced7ebb9343baac1e6948720a7, type: 3}
   NormalImage: {fileID: 2800000, guid: a5f4faced7ebb9343baac1e6948720a7, type: 3}
-  skipper: {fileID: 0}
-  nextSceneClip: {fileID: 0}
   evidenceRotator: {fileID: 312289627}
+  highlighter: {fileID: 0}
 --- !u!222 &249839032
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1668,7 +1662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &312289628
 Transform:
   m_ObjectHideFlags: 0
@@ -1833,9 +1827,8 @@ MonoBehaviour:
   clip: {fileID: 0}
   EnhancedImage: {fileID: 2800000, guid: a5f4faced7ebb9343baac1e6948720a7, type: 3}
   NormalImage: {fileID: 2800000, guid: a5f4faced7ebb9343baac1e6948720a7, type: 3}
-  skipper: {fileID: 0}
-  nextSceneClip: {fileID: 0}
   evidenceRotator: {fileID: 1285815445}
+  highlighter: {fileID: 0}
 --- !u!222 &335191248
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2548,9 +2541,8 @@ MonoBehaviour:
   clip: {fileID: 0}
   EnhancedImage: {fileID: 2800000, guid: 16301f8f19e6451468edc8b08af790cc, type: 3}
   NormalImage: {fileID: 2800000, guid: 16301f8f19e6451468edc8b08af790cc, type: 3}
-  skipper: {fileID: 0}
-  nextSceneClip: {fileID: 0}
   evidenceRotator: {fileID: 2124429993}
+  highlighter: {fileID: 0}
 --- !u!222 &523962225
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3123,6 +3115,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 1
+  m_ShouldActivateOnSelect: 1
 --- !u!114 &656106342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4067,6 +4060,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 1
+  m_ShouldActivateOnSelect: 1
 --- !u!114 &819672263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4558,7 +4552,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selected: {fileID: 0}
-  dialogTree: {fileID: 858004105}
+  dialogTreeController: {fileID: 0}
+  imageItems: []
+  locations: {fileID: 0}
   state: 3
 --- !u!81 &963194231
 AudioListener:
@@ -5199,7 +5195,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 162541212}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.43432415
+  m_Size: 0.4081064
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5429,9 +5425,8 @@ MonoBehaviour:
   clip: {fileID: 0}
   EnhancedImage: {fileID: 2800000, guid: 8c593a67a2b2976428ebf9dca22e641a, type: 3}
   NormalImage: {fileID: 2800000, guid: 8c593a67a2b2976428ebf9dca22e641a, type: 3}
-  skipper: {fileID: 0}
-  nextSceneClip: {fileID: 0}
   evidenceRotator: {fileID: 1794711898}
+  highlighter: {fileID: 0}
 --- !u!222 &1075175217
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5802,7 +5797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1285815446
 Transform:
   m_ObjectHideFlags: 0
@@ -6253,6 +6248,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 1
+  m_ShouldActivateOnSelect: 1
 --- !u!114 &1386642129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6743,6 +6739,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 1
+  m_ShouldActivateOnSelect: 1
 --- !u!114 &1498704216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7108,7 +7105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1658254682
 Transform:
   m_ObjectHideFlags: 0
@@ -7256,6 +7253,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
+  m_ShouldActivateOnSelect: 1
 --- !u!114 &1666606433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7658,8 +7656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b4a181aa9c7d3f418e04af476bdf24b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chat: {fileID: 0}
-  tree: {fileID: 858004105}
   play: 0
 --- !u!1 &1739735789
 GameObject:
@@ -7883,7 +7879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1794711899
 Transform:
   m_ObjectHideFlags: 0
@@ -8322,7 +8318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2124429994
 Transform:
   m_ObjectHideFlags: 0
@@ -8492,7 +8488,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1a348a38e95d25f41af0c7537ae6687c, type: 2}
+  - {fileID: 2100000, guid: 8c572ebf9841a934f892589fbc4fb094, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

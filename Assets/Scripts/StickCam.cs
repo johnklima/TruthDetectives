@@ -509,7 +509,7 @@ public class StickCam : MonoBehaviour
     }
     public void transitionCamera(Quaternion rot, float z)
     {
-
+        Debug.Log("start transition Z VALUE " + z);
         cameraTargetRotator.rotation = rot;  //final rotation of camera
         transitionStartRot = transform.rotation; //initial rotation of camera
         transitionStartZ = stickCam.transform.localPosition.z;
