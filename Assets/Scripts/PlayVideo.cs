@@ -88,12 +88,12 @@ public class PlayVideo : MonoBehaviour
         if (gamestate == 0)
         {
             Debug.Log("HELLO SCALE 0");
-            transform.localScale = new Vector3(-5.5f, -3.15f, 0.001f);
+            transform.localScale = new Vector3(5.5f, 3.15f, 0.001f);
         }
         else
         {
             Debug.Log("HELLO SCALE 1");
-            transform.localScale = new Vector3(-4.25f, -2.52f, 0.001f);
+            transform.localScale = new Vector3(4.25f, 2.52f, 0.001f);
 
         }
     }
