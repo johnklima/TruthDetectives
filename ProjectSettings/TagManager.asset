@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - location
-  - checkcorrect
-  - evidence
+
+  - inbox
+  - outbox
+  - DialogueCamera
+
   layers:
   - Default
   - TransparentFX
