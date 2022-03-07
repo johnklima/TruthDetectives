@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+
   - inbox
   - outbox
   - DialogueCamera
+
   layers:
   - Default
   - TransparentFX
@@ -17,9 +19,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - EARTH
+  - OBJECTS
+  - MAPS
   - 
   - 
   - 

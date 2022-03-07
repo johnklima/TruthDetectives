@@ -26,6 +26,9 @@ public class CorrectLocationTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
+
         if(timer > 0 && Time.time - timer > 2 && state == 0)
         {
 
@@ -38,7 +41,8 @@ public class CorrectLocationTrigger : MonoBehaviour
                 mosque.SetActive(true);
                 state = 1;
                 timer = Time.time;
-                nextButton.SetActive(true);
+                if (nextButton)
+                    nextButton.SetActive(true);
             }
         }
         if (state == 1  && next )

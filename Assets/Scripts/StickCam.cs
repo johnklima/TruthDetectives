@@ -319,7 +319,7 @@ public class StickCam : MonoBehaviour
         //frustrate the z pos update based on twist value
         Quaternion rot2 = transform.rotation;
         Vector3 euler = rot2.eulerAngles;
-        euler.z = camTwister.twist;
+        //euler.z = camTwister.twist;
         rot.eulerAngles = euler;
         transform.rotation = rot;
 
@@ -509,7 +509,7 @@ public class StickCam : MonoBehaviour
     }
     public void transitionCamera(Quaternion rot, float z)
     {
-
+        Debug.Log("start transition Z VALUE " + z);
         cameraTargetRotator.rotation = rot;  //final rotation of camera
         transitionStartRot = transform.rotation; //initial rotation of camera
         transitionStartZ = stickCam.transform.localPosition.z;

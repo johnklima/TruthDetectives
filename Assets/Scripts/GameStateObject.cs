@@ -16,7 +16,7 @@ public class GameStateObject : MonoBehaviour
     public Vector3 correctposition;
 
     public bool firstRun = true;
-    private bool write = false;  //change this to public to burn the scene
+    public bool write = false;  //change this to public to burn the scene
     private string path = Application.streamingAssetsPath;
     private string chapter = "";
 
@@ -115,5 +115,6 @@ public class GameStateObject : MonoBehaviour
         
         readCorrectJSON();
         readJSON();
+        write = false;
     }
 }

@@ -1,1 +1,1 @@
-{"firstRun":false,"slideValue":26.315784454345704}
+{"firstRun":false,"slideValue":-52.402732849121097}
