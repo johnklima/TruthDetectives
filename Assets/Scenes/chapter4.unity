@@ -209,6 +209,7 @@ MonoBehaviour:
   EnhancedImage: {fileID: 0}
   NormalImage: {fileID: 0}
   evidenceRotator: {fileID: 0}
+  highlighter: {fileID: 0}
 --- !u!114 &35661118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,6 +526,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTarget: {fileID: 1145702851}
+  EvidenceLocations: {fileID: 0}
+  EvidenceTarget: {fileID: 0}
+  placed: 0
 --- !u!23 &111661295
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -593,6 +597,7 @@ MonoBehaviour:
   correctrotation: {x: 0, y: 0, z: 0, w: 0}
   correctposition: {x: 0, y: 0, z: 0}
   firstRun: 1
+  write: 0
 --- !u!1 &176626591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,7 +1391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &605061964
 Transform:
   m_ObjectHideFlags: 0
@@ -2940,6 +2945,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTarget: {fileID: 741774714}
+  EvidenceLocations: {fileID: 0}
+  EvidenceTarget: {fileID: 0}
+  placed: 0
 --- !u!23 &977937982
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3008,6 +3016,7 @@ MonoBehaviour:
   correctrotation: {x: 0, y: 0, z: 0, w: 0}
   correctposition: {x: 0, y: 0, z: 0}
   firstRun: 1
+  write: 0
 --- !u!1 &1000740243
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,6 +3066,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTarget: {fileID: 1404803819}
+  EvidenceLocations: {fileID: 0}
+  EvidenceTarget: {fileID: 0}
+  placed: 0
 --- !u!23 &1000740246
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3125,6 +3137,7 @@ MonoBehaviour:
   correctrotation: {x: 0, y: 0, z: 0, w: 0}
   correctposition: {x: 0, y: 0, z: 0}
   firstRun: 1
+  write: 0
 --- !u!1 &1015494123
 GameObject:
   m_ObjectHideFlags: 0
@@ -3170,7 +3183,7 @@ BoxCollider:
   m_GameObject: {fileID: 1015494123}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4244,6 +4257,7 @@ MonoBehaviour:
   correctrotation: {x: 0, y: 0, z: 0, w: 0}
   correctposition: {x: 0, y: 0, z: 0}
   firstRun: 1
+  write: 0
 --- !u!65 &1360311578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5749,6 +5763,7 @@ MonoBehaviour:
   EnhancedImage: {fileID: 0}
   NormalImage: {fileID: 0}
   evidenceRotator: {fileID: 0}
+  highlighter: {fileID: 0}
 --- !u!114 &1776877153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6319,6 +6334,7 @@ MonoBehaviour:
   EnhancedImage: {fileID: 0}
   NormalImage: {fileID: 0}
   evidenceRotator: {fileID: 0}
+  highlighter: {fileID: 0}
 --- !u!114 &1881197192
 MonoBehaviour:
   m_ObjectHideFlags: 0

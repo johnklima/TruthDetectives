@@ -59,7 +59,7 @@ public class ImageItem : MonoBehaviour
                 return;
 
             //IF NOT CHAP5
-            if (glo.state != GlobalData.STATES.CHAP5)
+            //if (glo.state != GlobalData.STATES.CHAP5)
             {
                 VideoCube.GetComponent<PlayVideo>().scaleMe(1);
                 VideoCube.gameObject.SetActive(true);
@@ -75,7 +75,7 @@ public class ImageItem : MonoBehaviour
                 else
                     VideoCube.GetComponent<VideoPlayer>().Pause();
 
-                ImageCube.gameObject.SetActive(false);
+                //ImageCube.gameObject.SetActive(false);
 
             }
 

@@ -102,9 +102,9 @@ public class Evidence : MonoBehaviour
         //proximity placement
         
 
-        if (Vector3.Distance(transform.position, EvidenceTarget.position) < 4)
+        if (Vector3.Distance(transform.position, EvidenceTarget.position) < 5)
         {
-            if(Quaternion.Angle(transform.rotation,EvidenceTarget.rotation) < 3)
+            if(Quaternion.Angle(transform.rotation,EvidenceTarget.rotation) < 5)
             {
                 //make sure I am facing forward to the position (not convinced)
                 Vector3 heading = EvidenceTarget.position - transform.position;
@@ -112,7 +112,7 @@ public class Evidence : MonoBehaviour
 
                 float dot = Vector3.Dot(heading, transform.forward );
                 Debug.Log("angle " + dot.ToString());
-                if (dot > 0)
+                //if (dot > 0)
                 {
 
                     transition = true;
