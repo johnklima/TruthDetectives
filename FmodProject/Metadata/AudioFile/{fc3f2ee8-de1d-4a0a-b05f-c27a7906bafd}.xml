@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{fc3f2ee8-de1d-4a0a-b05f-c27a7906bafd}">
+		<property name="assetPath">
+			<value>217468__jarredgibb__drone-006.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>27.031604166666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{84ae07ae-bbef-4a71-8ce2-964ec3620464}</destination>
+		</relationship>
+	</object>
+</objects>

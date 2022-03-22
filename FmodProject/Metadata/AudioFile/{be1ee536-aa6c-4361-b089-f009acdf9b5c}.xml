@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{be1ee536-aa6c-4361-b089-f009acdf9b5c}">
+		<property name="assetPath">
+			<value>TD Ambient 4.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>128.70725623582766</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{84ae07ae-bbef-4a71-8ce2-964ec3620464}</destination>
+		</relationship>
+	</object>
+</objects>

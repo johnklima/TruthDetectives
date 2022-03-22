@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{074e452a-04c4-42e1-961d-bf337263ed26}">
+		<property name="name">
+			<value>LoopEnd</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3bb760a3-b42d-4fce-8367-7310d1d1091f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9ca9b301-a256-490a-9577-8da24789993d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9ca9b301-a256-490a-9577-8da24789993d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
