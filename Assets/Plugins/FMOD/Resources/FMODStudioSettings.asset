@@ -456,8 +456,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../truthdetectives_fmodstudio/TruthDetectives_FMODStudio.fspro
-  sourceBankPath: ..\truthdetectives_fmodstudio\Build
+  sourceProjectPath: FmodProject/TruthDetectives_FMODStudio.fspro
+  sourceBankPath: FmodProject\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
