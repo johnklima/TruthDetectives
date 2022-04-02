@@ -1,0 +1,86 @@
+[LOG] System::create                           : Header version = 2.01.07. Current version = 2.01.07.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
+[LOG] SystemI::init                            : Initialize version=20107 (113487), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0x7fa7e717c608 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b6f1e05b-033f-49d5-81ba-3706684f237d}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {91d50b53-7c6e-4653-8b4c-77fba88b05fd}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {d215552c-247f-43d4-804e-0bec9ea9600a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {7659df5d-ff15-49ac-887e-3c4390b09edb}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {9b038651-a083-4d77-ae52-02581bbea7a1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {58a3dfda-05df-4028-89a4-c085ffeeeac6}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e7d5f84d-45ee-40bc-950f-387e0a0725ab}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {033c0fa2-ec3b-41e1-85ba-ce55a1ad6702}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b438275e-34a0-44a4-895f-c1aff6469320}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {6e54b480-e052-4d6f-b64e-9493b7335a63}
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {89cd2db7-5583-43d6-8542-e71250385cba}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {55f93401-7749-44a0-85a1-2258a8536575}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f36eaf63-bad0-4505-b331-0b5fea1ead8a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f42540ce-0f0f-4493-9c28-5b55fcb01eb2}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8d39be07-0aee-4127-ba1c-98408d469ae4}
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {940b7744-d15e-4dbf-adc2-0f426a9fe8e2}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {9ea7157b-d09c-4e86-8d71-3dd6d6f6fd86}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {940b7744-d15e-4dbf-adc2-0f426a9fe8e2}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {9b038651-a083-4d77-ae52-02581bbea7a1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {7659df5d-ff15-49ac-887e-3c4390b09edb}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {940b7744-d15e-4dbf-adc2-0f426a9fe8e2}
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8ef29eca-6b9f-4cc8-9372-78c2dc66a7d3}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {fc3f2ee8-de1d-4a0a-b05f-c27a7906bafd}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {68260889-dab6-4ed9-b95c-2fa48c410523}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {89cd2db7-5583-43d6-8542-e71250385cba}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f36eaf63-bad0-4505-b331-0b5fea1ead8a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {1e300b59-a4e0-4893-80ce-0e1944688366}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {33a0bfb3-86d6-4cbf-94f1-0efd64d763cd}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {b5a376e2-2229-4067-8605-56cac0f47fb0}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {1e300b59-a4e0-4893-80ce-0e1944688366}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8d39be07-0aee-4127-ba1c-98408d469ae4}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {658d214f-df60-45a9-bcf3-d302590e12bb}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {5d1145e6-e636-410e-9b10-4813deb8f858}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {1f1de55d-4e13-4042-9b1b-3bf54f4b24c1}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {e3782afe-9b2c-4b9f-a6af-fab2c25db0a4}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {89cd2db7-5583-43d6-8542-e71250385cba}
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {dd264957-8239-40c4-bde7-c5c024f1d1ef}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {4e2af4b0-656c-48fe-a9b9-1ffa4d61682a}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {6544d8b5-10ff-4dc6-90ad-0d59e3e4546c}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {58a3dfda-05df-4028-89a4-c085ffeeeac6}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8a537ce1-1065-4642-9a9e-85b87c0329e3}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {dd264957-8239-40c4-bde7-c5c024f1d1ef}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {8a537ce1-1065-4642-9a9e-85b87c0329e3}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f823b56d-efca-4f1c-901b-b41fe6f99940}
+[WRN] ObjectLookup::get                        : Lookup failed for WaveformResourceModel: {f823b56d-efca-4f1c-901b-b41fe6f99940}
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
