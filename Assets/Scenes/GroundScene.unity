@@ -1329,13 +1329,37 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
       propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
+      propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
       propertyPath: m_ReflectionProbeUsage
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a68228c24abfa2f4b8954d7b0148f799, type: 2}
+    - target: {fileID: -7511558181221131132, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100008, guid: 47616bd0cda748d4cbedcfc908506b9d, type: 3}
     - target: {fileID: 919132149155446097, guid: b622474ec74874b10982b16a806f4dbe, type: 3}
       propertyPath: m_Name
       value: A-10-streets
@@ -1987,6 +2011,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4e8cb4c194cc24aba925fe3352158541, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -173482714909070930, guid: 4e8cb4c194cc24aba925fe3352158541, type: 3}
     - target: {fileID: 919132149155446097, guid: 4e8cb4c194cc24aba925fe3352158541, type: 3}
       propertyPath: m_Name
       value: A-10-buildings
@@ -3241,8 +3269,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3770981248755920756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.5, y: 18.3, z: -94.4}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: 47.37, y: 13.5, z: -89.7}
+  m_LocalScale: {x: 1.7886, y: 1.5, z: 1.94625}
   m_Children: []
   m_Father: {fileID: 1292567041997747055}
   m_RootOrder: 0
