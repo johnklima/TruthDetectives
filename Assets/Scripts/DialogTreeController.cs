@@ -17,7 +17,7 @@ public class DialogTreeController : MonoBehaviour
     {
         glo = Camera.main.GetComponent<GlobalData>();
     }
-
+ 
     // Update is called once per frame
     void Update()
     {
@@ -42,11 +42,21 @@ public class DialogTreeController : MonoBehaviour
 
         }
     }
-
     public void OnNextClick()
     {
-
         Debug.Log("OnNextClick");
+        if (glo.state == GlobalData.STATES.INTRO)
+        {
+            if (currentVideo)
+                currentVideo.SetActive(false);
+            if (currentDialog)
+                currentDialog.gameObject.SetActive(true); //kicks off the dialog tree
+        }
+    }
+    public void OnNextClickDynamic()
+    {
+
+        Debug.Log("OnNextClickDynamic");
 
         if(glo.state == GlobalData.STATES.INTRO)
         {
